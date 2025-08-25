@@ -1,17 +1,10 @@
-Custodial Inventory – Taconic Hills (PWA)
-========================================
-This package uses your Buildings & Grounds logo for the app icon and header.
+Custodial Inventory – Taconic Hills (Google Sheets Connected)
+------------------------------------------------------------
+- Orange theme + your logo (if provided)
+- Uses your Google Apps Script endpoint + token
+- Edits persist to the Items sheet, adjustments log to Transactions
 
-Quick publish (no installs):
-1) Visit Netlify Drop and drag this folder in.
-2) Netlify will give you a live URL.
-
-Install on phone:
-- Android (Chrome): open your URL → menu → Add to Home screen
-- iPhone (Safari): open your URL → Share → Add to Home Screen
-
-Local test:
-- python -m http.server 8080  (then open http://localhost:8080)
-
-Data:
-- Stored in localStorage on the device. Use Export CSV to back up.
+Deploy:
+1) Upload ALL files here to the root of your GitHub repo.
+2) Settings → Pages → Deploy from branch: main / (root).
+3) Open your Pages URL and test adding an item.

@@ -1,6 +1,5 @@
-const CACHE = 'inv-cache-v2';
-const ASSETS = ['.', './index.html', './manifest.webmanifest', './assets/thcsd-logo.png',
-                './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
+const CACHE = 'inv-cache-v4';
+const ASSETS = ['.', './index.html', './manifest.webmanifest', './assets/thcsd-logo.png', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
   self.skipWaiting();
